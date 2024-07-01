@@ -24,6 +24,11 @@ class Var(object):
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "5510849897").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
+    #stream link shortner
+    STREAM_SITE = (environ.get('STREAM_SITE', 'krownlinks.com'))
+    STREAM_API = (environ.get('STREAM_API', '2a757fa5b16d56e25a401e1ddd79f17e47b6ff19'))
+    STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), True)
+
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'riplinker'))
     if 'DYNO' in environ:
         ON_HEROKU = True
