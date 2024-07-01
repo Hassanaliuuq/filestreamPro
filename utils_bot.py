@@ -6,7 +6,7 @@ from asyncio import TimeoutError
 from pyrogram import filters
 #now addings
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid, ChatAdminRequired
-from info import *
+from Adarsh.vars import Var
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
