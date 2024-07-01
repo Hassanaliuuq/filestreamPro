@@ -12,19 +12,19 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '21845036'))
     API_HASH = str(getenv('API_HASH', 'b9787357754c57417854ba8ca0d35129'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6687536584:AAHkfH69rkTXB91WSubKz9KHrMCZEPCa3P0'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7373373780:AAHRapLP3U7Plgg4a8dPw4mnawLJtavh7QQ'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     name = str(getenv('name', 'Chatgpt_adv_bot'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001953315183'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1001953315183'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002143964514'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002143964514'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "5510849897").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'riplinker'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Snow_0_ball'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
