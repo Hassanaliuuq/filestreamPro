@@ -12,7 +12,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '21845036'))
     API_HASH = str(getenv('API_HASH', 'b9787357754c57417854ba8ca0d35129'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7373373780:AAHRapLP3U7Plgg4a8dPw4mnawLJtavh7QQ'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6687536584:AAHkfH69rkTXB91WSubKz9KHrMCZEPCa3P0'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     name = str(getenv('name', 'Chatgpt_adv_bot'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -38,7 +38,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://BIGBOSS:BIGBOSS@cluster0.ii3gmvr.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'hdlinks4uu'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'qgJFur2luoE3ZjRk'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002031180571")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1001734958816")).split()))   
     
