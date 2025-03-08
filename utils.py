@@ -1,6 +1,6 @@
 import pytz, random, string  
 from datetime import date 
-from info import API, URL
+from Adarsh.vars import Var
 from shortzy import Shortzy
 
 TOKENS = {}
