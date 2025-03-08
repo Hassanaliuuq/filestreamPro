@@ -10,6 +10,11 @@ bisal_grp = "https://t.me/movie_request_group_69"
 
 class Var(object):
     MULTI_CLIENT = False
+    API = environ.get("API", "") # shortlink api
+    URL = environ.get("URL", "") # shortlink domain without https://
+    VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+    BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+    VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
     API_ID = int(getenv('API_ID', '21845036'))
     API_HASH = str(getenv('API_HASH', 'b9787357754c57417854ba8ca0d35129'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6687536584:AAHkfH69rkTXB91WSubKz9KHrMCZEPCa3P0'))
