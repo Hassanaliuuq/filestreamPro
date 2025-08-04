@@ -12,7 +12,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '21845036'))
     API_HASH = str(getenv('API_HASH', 'b9787357754c57417854ba8ca0d35129'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6687536584:AAHkfH69rkTXB91WSubKz9KHrMCZEPCa3P0'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6594741905:AAGz5pptFU_ipZA4B-6WyFNh65D6JNInMWQ'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     name = str(getenv('name', 'Chatgpt_adv_bot'))
     WORKERS = int(getenv('WORKERS', '4'))
