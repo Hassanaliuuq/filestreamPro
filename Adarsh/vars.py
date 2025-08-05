@@ -16,8 +16,8 @@ class Var(object):
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     name = str(getenv('name', 'Chatgpt_adv_bot'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002119311683'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002119311683'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002754811952'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002754811952'))
     PORT = int(getenv('PORT', '80'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
